@@ -115,6 +115,8 @@ body {
                     font-style: italic;
                     font-size: 0.6rem;
                     text-align: center;
+                    // text-shadow: 3px 3px 7px rgb(255, 255, 255);
+                    filter: drop-shadow(2px 2px 5px white);
                 }
 
             }

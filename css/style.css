@@ -93,6 +93,7 @@ body .body-fluid .body-container .row-2 h3 {
   font-style: italic;
   font-size: 0.6rem;
   text-align: center;
+  filter: drop-shadow(2px 2px 5px white);
 }
 
 /*# sourceMappingURL=style.css.map */
