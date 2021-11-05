@@ -2,12 +2,50 @@
   box-sizing: border-box;
 }
 
+p {
+  color: #eeeeee;
+  font-family: "Jost", sans-serif;
+}
+
 body {
   background-color: #434343;
 }
 body .body-fluid {
-  border: 1px dashed yellow;
   height: 100vh;
+  background-image: url("/img/background-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+body .body-fluid .body-container {
+  border: 1px dashed red;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .body-fluid .body-container .row {
+  border: 1px dashed cyan;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body .body-fluid .body-container .row .logo_izq {
+  border: 4px solid #b9005e;
+  width: auto;
+}
+body .body-fluid .body-container .row .logo_izq figure {
+  width: 50px;
+}
+body .body-fluid .body-container .row .logo_izq figure img {
+  width: 100%;
+}
+body .body-fluid .body-container .row .logo_der {
+  border: 4px solid crimson;
+  width: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

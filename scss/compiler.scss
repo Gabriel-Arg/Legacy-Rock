@@ -4,13 +4,64 @@
     box-sizing: border-box;
 }
 
+p {
+    color: $color-blanco;
+    font-family: $fuente-titulos;
+}
+
 body {
     background-color: $color-grisoscuro;
 
     .body-fluid {
-        border: 1px dashed yellow;
-
+        // border: 1px dashed yellow;
         height: 100vh;
+
+        background-image: url('/img/background-1.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+
+
+        .body-container {
+            border: 1px dashed red;
+            height: 100%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .row {
+                border: 1px dashed cyan;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                .logo_izq {
+                    border: 4px solid $color-rosado;
+                    width: auto;
+
+                    figure {
+                        width: 50px;
+                        
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+
+                .logo_der {
+                    border: 4px solid crimson;
+                    width: auto;
+                }
+            }
+
+
+
+        }
     }
 
 
