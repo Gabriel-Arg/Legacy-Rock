@@ -1,0 +1,17 @@
+@import "variables";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $color-grisoscuro;
+
+    .body-fluid {
+        border: 1px dashed yellow;
+
+        height: 100vh;
+    }
+
+
+}

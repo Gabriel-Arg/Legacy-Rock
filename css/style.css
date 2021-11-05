@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #434343;
+}
+body .body-fluid {
+  border: 1px dashed yellow;
+  height: 100vh;
+}
+
+/*# sourceMappingURL=style.css.map */
