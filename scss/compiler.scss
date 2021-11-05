@@ -27,7 +27,7 @@ body {
 
 
         .body-container {
-            border: 1px dashed red;
+            // border: 1px dashed red;
             height: 100%;
 
             display: flex;
@@ -169,6 +169,45 @@ body {
 
             }
 
+            .row-4 {
+                // background-color: rgba(0, 255, 255, 0.275);
+                width: 100%;
+                height: auto;
+                margin-bottom: 10px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .row-4_container {
+                    border: 1px dashed chartreuse;
+                    width: auto;
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    button {
+                        padding: 3px 10px;
+                        border: none;
+                        border-radius: 3px;
+                        background-color: $fondo-rosado;
+
+                        a {
+                            text-decoration: none;
+                            font-style: italic;
+                            font-weight: 300;
+                            font-size: 0.7rem;
+                        }
+
+                    }
+
+
+                }
+
+            }
 
         }
     }

@@ -22,7 +22,6 @@ body .body-fluid {
   background-size: cover;
 }
 body .body-fluid .body-container {
-  border: 1px dashed red;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -130,6 +129,35 @@ body .body-fluid .body-container .row-3 .row-3_container figure img {
 body .body-fluid .body-container .row-3 .row-3_container p {
   font-style: italic;
   font-weight: 300;
+}
+body .body-fluid .body-container .row-4 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .body-fluid .body-container .row-4 .row-4_container {
+  border: 1px dashed chartreuse;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .body-fluid .body-container .row-4 .row-4_container button {
+  padding: 3px 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #b9005c6e;
+}
+body .body-fluid .body-container .row-4 .row-4_container button a {
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 0.7rem;
 }
 
 /*# sourceMappingURL=style.css.map */
