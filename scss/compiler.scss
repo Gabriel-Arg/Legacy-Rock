@@ -108,7 +108,7 @@ body {
             .row-2 {
                 // background-color: rgba(0, 255, 255, 0.275);
                 width: 100%;
-                margin-bottom: 10px;
+                margin-bottom: 0px;
 
                 display: flex;
                 flex-direction: row;
@@ -190,6 +190,7 @@ body {
                     align-items: center;
 
                     button {
+                        width: 10rem;
                         padding: 3px 10px;
                         border: none;
                         border-radius: 3px;
@@ -201,7 +202,30 @@ body {
                             font-weight: 300;
                             font-size: 0.7rem;
                         }
+                    }
 
+                    .row-4_redes {
+                        border: 1px dashed crimson;
+
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+
+                        figure {
+                            border: 1px dashed blue;
+                            width: 2rem;
+                            margin: 5px;
+                            cursor: pointer;
+
+                            img {
+                                width: 100%;
+                            }
+                        }
+
+                        #insta-icon {
+                            width: 1.6rem;
+                        }
                     }
 
 
