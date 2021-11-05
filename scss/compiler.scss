@@ -81,17 +81,22 @@ body {
                     h1 {
                         padding: 0;
                         margin: 0;
-                        font-size: 1rem;
-                        color: $color-rosado;
+                        font-size: 1.1rem;
+                        color:$color-rosado;
+                        font-family: $fuente-titulos;
                         font-weight: bold;
+                        letter-spacing: -0.5pt;
+                        text-align: center;
                     }
 
                     h3 {
                         padding: 0;
                         margin: 0;
-                        font-size: 0.9rem;
+                        font-size: 0.5rem;
                         color: $color-rosado;
                         font-weight: bold;
+                        letter-spacing: 3.4pt;
+                        text-align: center;
                     }
                 }
 
@@ -116,7 +121,7 @@ body {
                     font-size: 0.6rem;
                     text-align: center;
                     // text-shadow: 3px 3px 7px rgb(255, 255, 255);
-                    filter: drop-shadow(2px 2px 5px white);
+                    filter: drop-shadow(2px 2px 5px rgba(255, 183, 235, 0.529));
                 }
 
             }

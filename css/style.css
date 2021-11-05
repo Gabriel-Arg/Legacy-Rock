@@ -66,16 +66,21 @@ body .body-fluid .body-container .row-1 .logo-der {
 body .body-fluid .body-container .row-1 .logo-der h1 {
   padding: 0;
   margin: 0;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #b9005e;
+  font-family: "Jost", sans-serif;
   font-weight: bold;
+  letter-spacing: -0.5pt;
+  text-align: center;
 }
 body .body-fluid .body-container .row-1 .logo-der h3 {
   padding: 0;
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 0.5rem;
   color: #b9005e;
   font-weight: bold;
+  letter-spacing: 3.4pt;
+  text-align: center;
 }
 body .body-fluid .body-container .row-2 {
   width: 100%;
@@ -93,7 +98,7 @@ body .body-fluid .body-container .row-2 h3 {
   font-style: italic;
   font-size: 0.6rem;
   text-align: center;
-  filter: drop-shadow(2px 2px 5px white);
+  filter: drop-shadow(2px 2px 5px rgba(255, 183, 235, 0.529));
 }
 
 /*# sourceMappingURL=style.css.map */
