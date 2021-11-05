@@ -29,7 +29,7 @@ body {
 
             display: flex;
             flex-direction: column;
-            justify-content: space-evenly;
+            justify-content: center;
             align-items: center;
 
             .row {
@@ -40,6 +40,7 @@ body {
             .row-1 {
                 // background-color: rgba(0, 255, 255, 0.275);
                 width: 100%;
+                margin-bottom: 10px;
 
                 display: flex;
                 flex-direction: row;
@@ -94,9 +95,29 @@ body {
                     }
                 }
 
-
             }
 
+            .row-2 {
+                // background-color: rgba(0, 255, 255, 0.275);
+                width: 100%;
+                margin-bottom: 10px;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                h3 {
+                    margin: 0;
+                    padding: 0;
+                    color: $color-blanco;
+                    font-family: $fuente-titulos;
+                    font-style: italic;
+                    font-size: 0.6rem;
+                    text-align: center;
+                }
+
+            }
 
 
         }

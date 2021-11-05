@@ -23,7 +23,7 @@ body .body-fluid .body-container {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 body .body-fluid .body-container .row {
@@ -31,6 +31,7 @@ body .body-fluid .body-container .row {
 }
 body .body-fluid .body-container .row-1 {
   width: 100%;
+  margin-bottom: 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -75,6 +76,23 @@ body .body-fluid .body-container .row-1 .logo-der h3 {
   font-size: 0.9rem;
   color: #b9005e;
   font-weight: bold;
+}
+body .body-fluid .body-container .row-2 {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body .body-fluid .body-container .row-2 h3 {
+  margin: 0;
+  padding: 0;
+  color: #eeeeee;
+  font-family: "Jost", sans-serif;
+  font-style: italic;
+  font-size: 0.6rem;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
