@@ -20,7 +20,7 @@ body {
 
     .body-fluid {
         // border: 1px dashed yellow;
-        height: 100vh;
+        height: 100vmax;
 
         background-image: url(../img/background-4.jpg);
         background-position: center;
@@ -40,7 +40,6 @@ body {
 
             .row {
                 // border: 1px dashed cyan;
-                
             }
 
             .row-1 {
@@ -76,7 +75,7 @@ body {
                     border-right: 5px solid $color-rosado;
                     border-bottom: 5px solid $color-rosado;
                     padding: 7px;
-                    width: 45%;
+                    width: 55%;
                     height: 65px;
 
                     display: flex;

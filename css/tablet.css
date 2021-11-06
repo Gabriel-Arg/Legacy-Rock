@@ -1,6 +1,69 @@
-@media screen and (min-width: 820px) and (max-width: 1040px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
 
+    body .body-fluid .body-container .row-1 .logo-izq {
+        padding: 8px;
+        width: 80px;
+        height:80px;
+    }
 
+    body .body-fluid .body-container .row-1 .logo-der {
+        padding: 7px;
+        width: 45%;
+        height: 80px;
+    }
 
+    body .body-fluid .body-container .row-1 .logo-der h1 {
+        padding: 0;
+        margin: 0;
+        font-size: 2rem;
+    }
+
+    body .body-fluid .body-container .row-1 .logo-der h3 {
+        padding: 0;
+        margin: 0;
+        font-size: 1.3rem;
+    }
+
+    body .body-fluid .body-container .row-2 {
+        margin-bottom: 3rem;
+    }
+
+    body .body-fluid .body-container .row-2 h3 {
+        margin-top: 30px;
+        font-size: 0.9rem;
+    }
+
+    body .body-fluid .body-container .row-3 {
+        margin-bottom: 6rem;
+    }
+
+    body .body-fluid .body-container .row-3 .row-3_container figure {
+        margin: 0px 0px 1rem;
+        width: 12rem;
+    }
+
+    body .body-fluid .body-container .row-3 .row-3_container p {
+        font-size: 1.5rem;
+    }
+
+    body .body-fluid .body-container .row-4 .row-4_container .contact {
+        width: 13rem;
+        height: 3rem;
+        padding: 3px 10px;
+        margin-bottom: 10px;
+    }
+
+    body .body-fluid .body-container .row-4 .row-4_container .contact p {
+        font-size: 1.1rem;
+    }
+
+    body .body-fluid .body-container .row-4 .row-4_container .row-4_redes a figure {
+        width: 2.5rem;
+        margin: 10px 15px;
+    }
+
+    body .body-fluid .body-container .row-4 .row-4_container .row-4_redes #insta-icon {
+        width: 2rem;
+    }
 
 }
