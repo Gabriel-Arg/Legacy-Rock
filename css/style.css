@@ -2,12 +2,13 @@
   box-sizing: border-box;
 }
 
-p,
-h1, h2, h3, h4, h5, h6,
-a {
+p {
+  color: #eeeeee;
+}
+
+h1, h2, h3, h4, h5, h6 {
   color: #eeeeee;
   font-family: "Jost", sans-serif;
-  font-weight: lighter;
 }
 
 body {
@@ -22,7 +23,6 @@ body .body-fluid {
   background-size: cover;
 }
 body .body-fluid .body-container {
-  border: 1px dashed red;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -98,7 +98,8 @@ body .body-fluid .body-container .row-2 h3 {
   font-style: italic;
   font-size: 0.6rem;
   text-align: center;
-  filter: drop-shadow(2px 2px 5px rgba(255, 183, 235, 0.529));
+  text-shadow: 2px 2px 7px rgba(255, 255, 255, 0.638);
+  filter: drop-shadow(3px 3px 5px rgba(131, 0, 76, 0.563));
 }
 body .body-fluid .body-container .row-3 {
   width: 100%;
@@ -118,15 +119,22 @@ body .body-fluid .body-container .row-3 .row-3_container {
 }
 body .body-fluid .body-container .row-3 .row-3_container figure {
   border-radius: 3px;
+  margin: 0px 0px 1rem;
   width: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 body .body-fluid .body-container .row-3 .row-3_container figure img {
   border-radius: 3px;
   width: 100%;
 }
 body .body-fluid .body-container .row-3 .row-3_container p {
+  margin: 0;
   font-style: italic;
-  font-weight: 300;
+  font-weight: bold;
+  font-size: 1rem;
 }
 body .body-fluid .body-container .row-4 {
   width: 100%;
@@ -144,20 +152,27 @@ body .body-fluid .body-container .row-4 .row-4_container {
   justify-content: center;
   align-items: center;
 }
-body .body-fluid .body-container .row-4 .row-4_container button {
+body .body-fluid .body-container .row-4 .row-4_container .contact {
   width: 10rem;
   height: 2rem;
   padding: 3px 10px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   border: none;
   border-radius: 3px;
-  background-color: #b9005c6e;
+  background-color: #8c004679;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-body .body-fluid .body-container .row-4 .row-4_container button a {
-  text-decoration: none;
+body .body-fluid .body-container .row-4 .row-4_container .contact p {
+  padding: 0;
+  margin: 0;
   font-style: italic;
-  font-weight: 300;
+  font-weight: bold;
   font-size: 0.9rem;
+  text-shadow: 2px 2px 7px rgba(255, 255, 255, 0.638);
+  filter: drop-shadow(3px 3px 5px rgba(131, 0, 76, 0.563));
 }
 body .body-fluid .body-container .row-4 .row-4_container .row-4_redes {
   display: flex;
@@ -165,13 +180,19 @@ body .body-fluid .body-container .row-4 .row-4_container .row-4_redes {
   justify-content: center;
   align-items: center;
 }
-body .body-fluid .body-container .row-4 .row-4_container .row-4_redes figure {
+body .body-fluid .body-container .row-4 .row-4_container .row-4_redes a {
+  border-radius: 10px;
+}
+body .body-fluid .body-container .row-4 .row-4_container .row-4_redes a figure {
   width: 2rem;
-  margin: 5px;
+  margin: 5px 10px;
   cursor: pointer;
 }
-body .body-fluid .body-container .row-4 .row-4_container .row-4_redes figure img {
+body .body-fluid .body-container .row-4 .row-4_container .row-4_redes a figure img {
   width: 100%;
+}
+body .body-fluid .body-container .row-4 .row-4_container .row-4_redes a:hover {
+  background-color: #8c004679;
 }
 body .body-fluid .body-container .row-4 .row-4_container .row-4_redes #insta-icon {
   width: 1.6rem;

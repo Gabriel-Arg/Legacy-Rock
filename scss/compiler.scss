@@ -4,13 +4,16 @@
     box-sizing: border-box;
 }
 
-p,
-h1, h2, h3, h4, h5, h6,
-a {
+p {
+    color: $color-blanco;
+}
+
+h1, h2, h3, h4, h5, h6 {
     color: $color-blanco;
     font-family: $fuente-titulos;
-    font-weight: lighter;
 }
+
+
 
 body {
     background-color: $color-grisoscuro;
@@ -27,7 +30,7 @@ body {
 
 
         .body-container {
-            border: 1px dashed red;
+            // border: 1px dashed red;
             height: 100%;
 
             display: flex;
@@ -123,8 +126,8 @@ body {
                     font-style: italic;
                     font-size: 0.6rem;
                     text-align: center;
-                    // text-shadow: 3px 3px 7px rgb(255, 255, 255);
-                    filter: drop-shadow(2px 2px 5px rgba(255, 183, 235, 0.529));
+                    text-shadow: 2px 2px 7px rgba(255, 255, 255, 0.638);
+                    filter: drop-shadow(3px 3px 5px rgba(131, 0, 76, 0.563));
                 }
 
             }
@@ -152,7 +155,13 @@ body {
                     figure {
                         // border: 1px dashed red;
                         border-radius: 3px;
+                        margin: 0px 0px 1rem;
                         width: 8rem;
+
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
 
                         img {
                             border-radius: 3px;
@@ -161,10 +170,11 @@ body {
                     }
 
                     p {
+                        margin: 0;
                         font-style: italic;
-                        font-weight: 300;
+                        font-weight: bold;
+                        font-size: 1rem;
                     }
-
 
                 }
 
@@ -190,20 +200,28 @@ body {
                     justify-content: center;
                     align-items: center;
 
-                    button {
+                    .contact {
                         width: 10rem;
                         height: 2rem;
                         padding: 3px 10px;
-                        margin-bottom: 5px;
+                        margin-bottom: 10px;
                         border: none;
                         border-radius: 3px;
                         background-color: $fondo-rosado;
 
-                        a {
-                            text-decoration: none;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+
+                        p {
+                            padding: 0;
+                            margin: 0;
                             font-style: italic;
-                            font-weight: 300;
+                            font-weight: bold;
                             font-size: 0.9rem;
+                            text-shadow: 2px 2px 7px rgba(255, 255, 255, 0.638);
+                            filter: drop-shadow(3px 3px 5px rgba(131, 0, 76, 0.563));
                         }
                     }
 
@@ -215,15 +233,23 @@ body {
                         justify-content: center;
                         align-items: center;
 
-                        figure {
-                            // border: 1px dashed blue;
-                            width: 2rem;
-                            margin: 5px;
-                            cursor: pointer;
+                        a {
+                            // border: 1px dashed cyan;
+                            border-radius: 10px;
 
-                            img {
-                                width: 100%;
+                            figure {
+                                // border: 1px dashed blue;
+                                width: 2rem;
+                                margin: 5px 10px;
+                                cursor: pointer;
+    
+                                img {
+                                    width: 100%;
+                                }
                             }
+                        }
+                        a:hover {
+                            background-color: $fondo-rosado;
                         }
 
                         #insta-icon {
