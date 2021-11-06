@@ -1,0 +1,30 @@
+@media screen and (min-width: 500px) and (max-width: 820px) {
+    
+    body .body-fluid {
+        height: 100vmax;
+    }
+    
+    body .body-fluid .body-container {
+        /* border: 1px dashed red; */
+    }
+
+    body .body-fluid .body-container .row-1 .logo-der {
+        padding: 0px;
+    }
+
+    body .body-fluid .body-container .row-1 .logo-der h1 {
+        font-size: 1.6rem;
+    }
+
+    body .body-fluid .body-container .row-1 .logo-der h3 {
+        font-size: 1rem;
+        letter-spacing: 3.4pt;
+        text-align: center;
+    }
+
+    body .body-fluid .body-container .row-2 h3 {
+        font-size: 0.7rem;
+        margin-top: 20px;
+    }
+
+}
