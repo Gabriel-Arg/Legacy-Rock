@@ -15,7 +15,7 @@ body {
 }
 body .body-fluid {
   height: 100vh;
-  background-image: url(../img/background-1.jpg);
+  background-image: url(../img/background-4.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -102,7 +102,7 @@ body .body-fluid .body-container .row-2 h3 {
 }
 body .body-fluid .body-container .row-3 {
   width: 100%;
-  margin-bottom: 9rem;
+  margin-bottom: 3.5rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
