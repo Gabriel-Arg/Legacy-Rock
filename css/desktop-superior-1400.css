@@ -1,4 +1,84 @@
 @media screen and (min-width: 1401px) {
 
+    body .body-fluid {
+        height: 100vmax;
+    }
+
+    body .body-fluid .body-container .row-1 {
+        /* border: 1px dashed cyan; */
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+
+    body .body-fluid .body-container .row-1 .logo-izq {
+        padding: 13px;
+        width: 130px;
+        height:130px;
+        border: 8px solid #b9005e;
+    }
+
+    body .body-fluid .body-container .row-1 .logo-der {
+        padding: 13px;
+        width: 450px;
+        height: 130px;
+        border-top: 8px solid #b9005e;
+        border-right: 8px solid #b9005e;
+        border-bottom: 8px solid #b9005e;
+    }
+
+    body .body-fluid .body-container .row-1 .logo-der h1 {
+        padding: 0;
+        margin: 0;
+        font-size: 3.5rem;
+    }
+
+    body .body-fluid .body-container .row-1 .logo-der h3 {
+        padding: 0;
+        margin: 0;
+        font-size: 1.6rem;
+        font-weight: normal;
+        letter-spacing: 10pt;
+    }
+
+    body .body-fluid .body-container .row-2 {
+        margin-bottom: 4.7rem;
+    }
+
+    body .body-fluid .body-container .row-2 h3 {
+        margin-top: 10px;
+        font-size: 1.6rem;
+    }
+
+    body .body-fluid .body-container .row-3 .row-3_container figure {
+        margin: 0px 0px 0.7rem;
+        width: 360px;
+        height: 360px;
+    }
+
+    body .body-fluid .body-container .row-3 .row-3_container p {
+        margin-top: 10px;
+        font-size: 2.5rem;
+    }
+
+    body .body-fluid .body-container .row-4 .row-4_container .contact {
+        width: 380px;
+        height: 70px;
+        padding: 3px 10px;
+        margin-bottom: 8px;
+    }
+
+    body .body-fluid .body-container .row-4 .row-4_container .contact p {
+        font-size: 2rem;
+    }
+
+    body .body-fluid .body-container .row-4 .row-4_container .row-4_redes a figure {
+        width: 3.7rem;
+        margin: 15px 20px;
+    }
+
+    body .body-fluid .body-container .row-4 .row-4_container .row-4_redes #insta-icon {
+        width: 3rem;
+    }
+
 
 }
