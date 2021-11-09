@@ -9,7 +9,8 @@
     }
 
     body .body-fluid .body-container .row-1 .logo-der {
-        padding: 0px;
+        width: 210px;
+        height: 65px;
     }
 
     body .body-fluid .body-container .row-1 .logo-der h1 {
@@ -17,8 +18,8 @@
     }
 
     body .body-fluid .body-container .row-1 .logo-der h3 {
-        font-size: 1rem;
-        letter-spacing: 3.4pt;
+        font-size: 0.8rem;
+        letter-spacing: 4pt;
         text-align: center;
     }
 
