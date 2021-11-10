@@ -13,8 +13,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: $fuente-titulos;
 }
 
-
-
 body {
     background-color: $color-grisoscuro;
 
@@ -22,7 +20,7 @@ body {
         // border: 1px dashed yellow;
         height: 100vmax;
 
-        background-image: url(../img/background-4.jpg);
+        background-image: url(../img/background.png);
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -39,69 +37,27 @@ body {
             align-items: center;
 
             .row {
-                // border: 1px dashed cyan;
+                border: 1px dashed cyan;
             }
 
             .row-1 {
                 // background-color: rgba(0, 255, 255, 0.275);
                 width: 100%;
-                margin-bottom: 15px;
+                margin-bottom: 20px;
 
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
                 align-items: center;
 
-                .logo-izq {
-                    border: 4px solid $color-rosado;
-                    padding: 7px;
-                    width: 65px;
-                    height: 65px;
+                figure {
+                    width: 80%;
+                    margin: 0;
+                    padding: 0;
+                    
 
-                    figure {
+                    img {
                         width: 100%;
-                        padding: 0;
-
-                        img {
-                            width: 100%;
-                            padding: 0;
-
-                        }
-                    }
-                }
-
-                .logo-der {
-                    border-top: 4px solid $color-rosado;
-                    border-right: 4px solid $color-rosado;
-                    border-bottom: 4px solid $color-rosado;
-                    padding: 7px;
-                    width: 170px;
-                    height: 65px;
-
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-
-                    h1 {
-                        padding: 0;
-                        margin: 0;
-                        font-size: 1.4rem;
-                        color:$color-rosado;
-                        font-family: $fuente-titulos;
-                        font-weight: bolder;
-                        letter-spacing: -0.5pt;
-                        text-align: center;
-                    }
-
-                    h3 {
-                        padding: 0;
-                        margin: 0;
-                        font-size: 0.7rem;
-                        color: $color-rosado;
-                        font-weight: bold;
-                        letter-spacing: 3.8pt;
-                        text-align: center;
                     }
                 }
 
