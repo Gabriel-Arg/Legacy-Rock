@@ -5,43 +5,20 @@
     }
 
     body .body-fluid .body-container .row-1 {
-        margin-top: 0px;
-        margin-bottom: 40px;
+        margin: 0px 0px 40px;
     }
 
-    body .body-fluid .body-container .row-1 .logo-izq {
-        padding: 13px;
-        width: 130px;
-        height:130px;
-    }
-
-    body .body-fluid .body-container .row-1 .logo-der {
-        padding: 13px;
-        width: 400px;
-        height: 130px;
-    }
-
-    body .body-fluid .body-container .row-1 .logo-der h1 {
-        padding: 0;
-        margin: 0;
-        font-size: 3.1rem;
-    }
-
-    body .body-fluid .body-container .row-1 .logo-der h3 {
-        padding: 0;
-        margin: 0;
-        font-size: 1.5rem;
-        font-weight: normal;
-        letter-spacing: 8.2pt;
+    body .body-fluid .body-container .row-1 figure {
+        width: 45%;
     }
 
     body .body-fluid .body-container .row-2 {
-        margin-bottom: 4rem;
+        margin-bottom: 5rem;
     }
 
     body .body-fluid .body-container .row-2 h3 {
-        margin-top: 10px;
-        font-size: 1.4rem;
+        margin-top: 0px;
+        font-size: 1.7rem;
     }
 
     body .body-fluid .body-container .row-3 .row-3_container figure {
