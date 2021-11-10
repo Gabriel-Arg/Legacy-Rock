@@ -82,6 +82,7 @@ body {
                     font-size: 0.7rem;
                     font-family: $fuente-titulos;
                     font-style: italic;
+                    font-weight: bold;
                     text-align: center;
                     text-shadow: 2px 2px 7px rgba(255, 255, 255, 0.638);
                     filter: drop-shadow(3px 3px 5px rgba(131, 0, 76, 0.563));
@@ -112,17 +113,19 @@ body {
                     figure {
                         // border: 1px dashed red;
                         border-radius: 3px;
-                        margin: 0px 0px 1rem;
+                        margin: 0px 0px 0.5rem;
                         width: 8rem;
 
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
                         align-items: center;
+                        box-shadow: 5px 5px 55px rgba(255, 255, 255, 0.611);
 
                         img {
                             border-radius: 3px;
                             width: 100%
+                            
                         }
                     }
 
@@ -149,7 +152,7 @@ body {
                 align-items: center;
 
                 .row-4_container {
-                    // border: 1px dashed chartreuse;
+                    border: 1px dashed chartreuse;
                     width: auto;
 
                     display: flex;
@@ -158,27 +161,21 @@ body {
                     align-items: center;
 
                     .contact {
-                        width: 7.9rem;
+                        width: 8rem;
                         height: 2rem;
-                        padding: 3px 10px;
+                        padding: 0;
                         margin-bottom: 10px;
                         border: none;
                         border-radius: 3px;
-                        background-color: $fondo-rosado;
+                        // background-color: $fondo-rosado;
 
                         display: flex;
                         flex-direction: row;
                         justify-content: center;
                         align-items: center;
 
-                        p {
-                            padding: 0;
-                            margin: 0;
-                            font-style: italic;
-                            font-weight: normal;
-                            font-size: 0.9rem;
-                            text-shadow: 2px 2px 7px rgba(255, 255, 255, 0.638);
-                            filter: drop-shadow(3px 3px 5px rgba(131, 0, 76, 0.563));
+                        img {
+                            width: 100%;
                         }
                     }
 

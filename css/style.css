@@ -64,6 +64,7 @@ body .body-fluid .body-container .row-2 h3 {
   font-size: 0.7rem;
   font-family: "Jost", sans-serif;
   font-style: italic;
+  font-weight: bold;
   text-align: center;
   text-shadow: 2px 2px 7px rgba(255, 255, 255, 0.638);
   filter: drop-shadow(3px 3px 5px rgba(131, 0, 76, 0.563));
@@ -86,12 +87,13 @@ body .body-fluid .body-container .row-3 .row-3_container {
 }
 body .body-fluid .body-container .row-3 .row-3_container figure {
   border-radius: 3px;
-  margin: 0px 0px 1rem;
+  margin: 0px 0px 0.5rem;
   width: 8rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow: 5px 5px 55px rgba(255, 255, 255, 0.611);
 }
 body .body-fluid .body-container .row-3 .row-3_container figure img {
   border-radius: 3px;
@@ -113,6 +115,7 @@ body .body-fluid .body-container .row-4 {
   align-items: center;
 }
 body .body-fluid .body-container .row-4 .row-4_container {
+  border: 1px dashed chartreuse;
   width: auto;
   display: flex;
   flex-direction: column;
@@ -120,26 +123,19 @@ body .body-fluid .body-container .row-4 .row-4_container {
   align-items: center;
 }
 body .body-fluid .body-container .row-4 .row-4_container .contact {
-  width: 7.9rem;
+  width: 8rem;
   height: 2rem;
-  padding: 3px 10px;
+  padding: 0;
   margin-bottom: 10px;
   border: none;
   border-radius: 3px;
-  background-color: #8c004679;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-body .body-fluid .body-container .row-4 .row-4_container .contact p {
-  padding: 0;
-  margin: 0;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 0.9rem;
-  text-shadow: 2px 2px 7px rgba(255, 255, 255, 0.638);
-  filter: drop-shadow(3px 3px 5px rgba(131, 0, 76, 0.563));
+body .body-fluid .body-container .row-4 .row-4_container .contact img {
+  width: 100%;
 }
 body .body-fluid .body-container .row-4 .row-4_container .row-4_redes {
   display: flex;
