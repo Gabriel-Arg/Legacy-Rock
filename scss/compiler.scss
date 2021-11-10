@@ -15,16 +15,21 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
     background-color: $color-grisoscuro;
+    background-image: url(../img/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 
     .body-fluid {
         // border: 1px dashed yellow;
         height: 100vmax;
 
-        background-image: url(../img/background.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
+        // background-image: url(../img/background.png);
+        // background-position: center;
+        // background-repeat: no-repeat;
+        // background-attachment: fixed;
+        // background-size: cover;
 
 
         .body-container {
@@ -38,7 +43,7 @@ body {
             align-items: center;
 
             .row {
-                border: 1px dashed cyan;
+                // border: 1px dashed cyan;
             }
 
             .row-1 {
@@ -152,7 +157,7 @@ body {
                 align-items: center;
 
                 .row-4_container {
-                    border: 1px dashed chartreuse;
+                    // border: 1px dashed chartreuse;
                     width: auto;
 
                     display: flex;

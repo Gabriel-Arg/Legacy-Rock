@@ -13,14 +13,14 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   background-color: #434343;
-}
-body .body-fluid {
-  height: 100vmax;
   background-image: url(../img/background.png);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+body .body-fluid {
+  height: 100vmax;
 }
 body .body-fluid .body-container {
   height: 100%;
@@ -29,9 +29,6 @@ body .body-fluid .body-container {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-body .body-fluid .body-container .row {
-  border: 1px dashed cyan;
 }
 body .body-fluid .body-container .row-1 {
   width: 100%;
@@ -115,7 +112,6 @@ body .body-fluid .body-container .row-4 {
   align-items: center;
 }
 body .body-fluid .body-container .row-4 .row-4_container {
-  border: 1px dashed chartreuse;
   width: auto;
   display: flex;
   flex-direction: column;
