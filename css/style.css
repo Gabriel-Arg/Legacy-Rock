@@ -124,9 +124,9 @@ body .body-fluid .body-container .row-4 .row-4_container {
 }
 body .body-fluid .body-container .row-4 .row-4_container .contact {
   width: 8rem;
-  height: 2rem;
+  height: 2.5rem;
   padding: 0;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   border: none;
   border-radius: 3px;
   display: flex;

@@ -1,4 +1,4 @@
-@media screen and (min-width: 576px) and (max-width: 768px) {
+@media screen and (min-width: 450px) and (max-width: 768px) {
     
     body .body-fluid {
         height: 100vmax;
@@ -8,24 +8,23 @@
         /* border: 1px dashed red; */
     }
 
-    body .body-fluid .body-container .row-1 .logo-der {
-        width: 210px;
-        height: 65px;
-    }
-
-    body .body-fluid .body-container .row-1 .logo-der h1 {
-        font-size: 1.6rem;
-    }
-
-    body .body-fluid .body-container .row-1 .logo-der h3 {
-        font-size: 0.8rem;
-        letter-spacing: 4pt;
-        text-align: center;
+    body .body-fluid .body-container .row-1 figure {
+        width: 50%;
     }
 
     body .body-fluid .body-container .row-2 h3 {
-        font-size: 0.7rem;
-        margin-top: 20px;
+        font-size: 0.9rem;
     }
+
+    body .body-fluid .body-container .row-3 .row-3_container figure {
+        border-radius: 3px;
+        margin: 0px 0px 0.5rem;
+        width: 8.5rem;
+    }
+
+    body .body-fluid .body-container .row-4 .row-4_container .contact {
+        width: 8.5rem;
+    }
+
 
 }
