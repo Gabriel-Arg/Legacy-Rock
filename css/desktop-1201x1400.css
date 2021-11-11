@@ -1,50 +1,47 @@
 @media screen and (min-width: 1201px) and (max-width: 1400px) {
 
+    body {
+        background-image: url(../img/background.png);
+    }
+
     body .body-fluid {
         height: 100vh;
     }
 
     body .body-fluid .body-container .row-1 {
-        margin: 3% 0px 20px;
+        margin-top: 5%;
     }
 
     body .body-fluid .body-container .row-1 figure {
-        width: 20%;
+        width: 25%;
     }
 
-    body .body-fluid .body-container .row-2 {
-        margin-bottom: 30px;
+    body .body-fluid .body-container .row-2 figure {
+        width: 35%;
+        margin: 0;
+        padding: 0;
     }
 
-    body .body-fluid .body-container .row-2 h3 {
-        margin-top: 0px;
-        font-size: 0.8rem;
+    body .body-fluid .body-container .row-3 {
+        margin-bottom: 3%;
     }
 
     body .body-fluid .body-container .row-3 .row-3_container figure {
-        margin: 0px;
-        width: 7.5rem;
+        width: 25%;
     }
 
     body .body-fluid .body-container .row-3 .row-3_container p {
-        margin-top: 5px;
         font-size: 0.8rem;
+        font-weight: 500;
+    }
+
+    body .body-fluid .body-container .row-3 .row-3_container .coming {
+        font-size: 0.6rem;
     }
 
     body .body-fluid .body-container .row-4 .row-4_container .contact {
-        width: 9rem;
-        height: 1.8rem;
-        padding: 3px 10px;
-        margin-bottom: 0px;
-    }
-
-    body .body-fluid .body-container .row-4 .row-4_container .row-4_redes a figure {
-        width: 1.3rem;
-        margin: 0px 7px;
-    }
-
-    body .body-fluid .body-container .row-4 .row-4_container .row-4_redes #insta-icon {
-        width: 1.1rem;
+        width: 60%;
+        height: 2.5rem;
     }
 
 }

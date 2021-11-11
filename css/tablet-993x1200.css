@@ -1,5 +1,9 @@
 @media screen and (min-width: 993px) and (max-width: 1200px) {
 
+    body {
+        background-image: url(../img/background.png);
+    }
+
     body .body-fluid {
         height: 100%;
     }

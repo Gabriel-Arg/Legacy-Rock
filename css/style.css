@@ -23,16 +23,12 @@ body .body-fluid {
   height: 100vh;
 }
 body .body-fluid .body-container {
-  border: 1px dashed red;
   height: 100%;
   padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-body .body-fluid .body-container .row {
-  border: 1px dashed cyan;
 }
 body .body-fluid .body-container .row-1 {
   width: 100%;
@@ -121,7 +117,6 @@ body .body-fluid .body-container .row-4 {
   align-items: center;
 }
 body .body-fluid .body-container .row-4 .row-4_container {
-  border: 1px dashed chartreuse;
   width: auto;
   margin: 0;
   padding: 0;
