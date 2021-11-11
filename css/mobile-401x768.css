@@ -12,6 +12,10 @@
         font-size: 0.9rem;
     }
 
+    body .body-fluid .body-container .row-4 .row-4_container{
+        margin-bottom: 5%;
+    }
+
     body .body-fluid .body-container .row-4 .row-4_container .contact {
         width: 75%;
         height: 2.5rem;

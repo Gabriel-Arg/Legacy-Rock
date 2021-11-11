@@ -1,5 +1,36 @@
 @media screen and (min-width: 769px) and (max-width: 992px) {
 
-    
+    body .body-fluid {
+        height: 100vmax;
+    }
+
+    body .body-fluid .body-container .row-3 .row-3_container figure {
+        border-radius: 3px;
+        margin: 0px 0px 0.3rem;
+        width: 43%;
+    }
+
+    body .body-fluid .body-container .row-3 .row-3_container p {
+        font-size: 1.5rem;
+    }
+
+    body .body-fluid .body-container .row-3 .row-3_container .coming {
+        font-size: 1rem;
+    }
+
+    body .body-fluid .body-container .row-4 .row-4_container .contact {
+        width: 100%;
+        height: 2.5rem;
+        margin-bottom: 4%;
+    }
+
+    #mail-icon {
+        width: 2.3rem;
+    }
+
+    body .body-fluid .body-container .row-4 .row-4_container .row-4_redes #insta-icon {
+        width: 1.8rem;
+        margin-left: 0.8rem;
+    }
 
 }

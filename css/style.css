@@ -86,7 +86,7 @@ body .body-fluid .body-container .row-3 .row-3_container {
   align-items: center;
 }
 body .body-fluid .body-container .row-3 .row-3_container figure {
-  border-radius: 3px;
+  border-radius: 2px;
   margin: 0px 0px 0.2rem;
   width: 35%;
   display: flex;
@@ -96,13 +96,13 @@ body .body-fluid .body-container .row-3 .row-3_container figure {
   box-shadow: 5px 5px 55px rgba(255, 255, 255, 0.611);
 }
 body .body-fluid .body-container .row-3 .row-3_container figure img {
-  border-radius: 3px;
+  border-radius: 2px;
   width: 100%;
 }
 body .body-fluid .body-container .row-3 .row-3_container p {
   margin: 0;
   font-style: italic;
-  font-weight: bold;
+  font-weight: 400;
   font-size: 1rem;
 }
 body .body-fluid .body-container .row-3 .row-3_container .coming {
