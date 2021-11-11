@@ -3,28 +3,24 @@
     body .body-fluid {
         height: 100vmax;
     }
-    
-    body .body-fluid .body-container {
-        /* border: 1px dashed red; */
+
+    body .body-fluid .body-container .row-3 .row-3_container p {
+        font-size: 1.2rem;
     }
 
-    body .body-fluid .body-container .row-1 figure {
-        width: 50%;
-    }
-
-    body .body-fluid .body-container .row-2 h3 {
+    body .body-fluid .body-container .row-3 .row-3_container .coming {
         font-size: 0.9rem;
     }
 
-    body .body-fluid .body-container .row-3 .row-3_container figure {
-        border-radius: 3px;
-        margin: 0px 0px 0.5rem;
-        width: 8.5rem;
-    }
-
     body .body-fluid .body-container .row-4 .row-4_container .contact {
-        width: 8.5rem;
+        width: 75%;
+        height: 2.5rem;
+        margin-bottom: 2%;
     }
 
+    body .body-fluid .body-container .row-4 .row-4_container .row-4_redes #insta-icon {
+        width: 1.2rem;
+        margin-left: 0.6rem;
+    }
 
 }
