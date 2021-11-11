@@ -23,17 +23,10 @@ body {
 
     .body-fluid {
         // border: 1px dashed yellow;
-        height: 100vmax;
-
-        // background-image: url(../img/background.png);
-        // background-position: center;
-        // background-repeat: no-repeat;
-        // background-attachment: fixed;
-        // background-size: cover;
-
+        height: 100vh;
 
         .body-container {
-            // border: 1px dashed red;
+            border: 1px dashed red;
             height: 100%;
             padding: 0;
 
@@ -43,13 +36,13 @@ body {
             align-items: center;
 
             .row {
-                // border: 1px dashed cyan;
+                border: 1px dashed cyan;
             }
 
             .row-1 {
                 // background-color: rgba(0, 255, 255, 0.275);
                 width: 100%;
-                margin-bottom: 20px;
+                margin-top: 0;
 
                 display: flex;
                 flex-direction: row;
@@ -57,10 +50,9 @@ body {
                 align-items: center;
 
                 figure {
-                    width: 70%;
+                    width: 74%;
                     margin: 0;
                     padding: 0;
-                    
 
                     img {
                         width: 100%;
@@ -72,25 +64,22 @@ body {
             .row-2 {
                 // background-color: rgba(0, 255, 255, 0.275);
                 width: 100%;
-                margin-bottom: 2rem;
+                margin-bottom: 0;
+                padding: 0;
 
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
                 align-items: center;
 
-                h3 {
+                figure {
+                    width: 100%;
                     margin: 0;
                     padding: 0;
-                    color: $color-blanco;
 
-                    font-size: 0.7rem;
-                    font-family: $fuente-titulos;
-                    font-style: italic;
-                    font-weight: bold;
-                    text-align: center;
-                    text-shadow: 2px 2px 7px rgba(255, 255, 255, 0.638);
-                    filter: drop-shadow(3px 3px 5px rgba(131, 0, 76, 0.563));
+                    img {
+                        width: 100%;
+                    }
                 }
 
             }
@@ -98,7 +87,7 @@ body {
             .row-3 {
                 // background-color: rgba(0, 255, 255, 0.275);
                 width: 100%;
-                margin-bottom: 3.5rem;
+                margin-bottom: 0;
 
                 display: flex;
                 flex-direction: row;
@@ -109,6 +98,8 @@ body {
                     // border: 1px dashed chartreuse;
                     width: auto;
                     height: auto;
+                    margin: 0;
+                    padding: 0;
 
                     display: flex;
                     flex-direction: column;
@@ -118,8 +109,8 @@ body {
                     figure {
                         // border: 1px dashed red;
                         border-radius: 3px;
-                        margin: 0px 0px 0.5rem;
-                        width: 8rem;
+                        margin: 0px 0px 0.2rem;
+                        width: 35%;
 
                         display: flex;
                         flex-direction: column;
@@ -141,6 +132,13 @@ body {
                         font-size: 1rem;
                     }
 
+                    .coming {
+                        margin: 0;
+                        font-style: italic;
+                        font-weight: normal;
+                        font-size: 0.7rem;
+                    }
+
                 }
 
             }
@@ -149,7 +147,7 @@ body {
                 // background-color: rgba(0, 255, 255, 0.275);
                 width: 100%;
                 height: auto;
-                margin-bottom: 10px;
+                margin-bottom: 0;
 
                 display: flex;
                 flex-direction: column;
@@ -195,27 +193,27 @@ body {
                         a {
                             // border: 1px dashed cyan;
                             border-radius: 10px;
+                            margin: 0px;
 
-                            figure {
-                                // border: 1px dashed blue;
-                                width: 2rem;
-                                margin: 5px 10px;
-                                cursor: pointer;
-    
-                                img {
-                                    width: 100%;
-                                }
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: center;
+
+                            img {
+                                width: 100%;
                             }
+
                         }
                         a:hover {
                             background-color: $fondo-rosado;
                         }
 
                         #insta-icon {
-                            width: 1.6rem;
+                            width: 1.2rem;
+                            margin-left: 0.3rem;
                         }
                     }
-
 
                 }
 
