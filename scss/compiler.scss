@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
     background-color: $color-grisoscuro;
     background-image: url(../img/backrground_mobile.png);
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -42,7 +42,7 @@ body {
             .row-1 {
                 // background-color: rgba(0, 255, 255, 0.275);
                 width: 100%;
-                margin-top: 37%;
+                margin-top: 35%;
 
                 display: flex;
                 flex-direction: row;
@@ -129,14 +129,14 @@ body {
                         margin: 0;
                         font-style: italic;
                         font-weight: 400;
-                        font-size: 1rem;
+                        font-size: 0.6rem;
                     }
 
                     .coming {
                         margin: 0;
                         font-style: italic;
                         font-weight: normal;
-                        font-size: 0.7rem;
+                        font-size: 0.5rem;
                     }
 
                 }
