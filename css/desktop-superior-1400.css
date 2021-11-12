@@ -1,4 +1,50 @@
 @media screen and (min-width: 1401px) {
 
+    body {
+        background-image: url(../img/background.png);
+    }
+
+    body .body-fluid {
+        height: 100vh;
+    }
+
+    body .body-fluid .body-container .row-1 {
+        margin-top: 5%;
+    }
+
+    body .body-fluid .body-container .row-1 figure {
+        width: 25%;
+    }
+
+    
+    body .body-fluid .body-container .row-2 figure {
+        width: 35%;
+        margin: 0;
+        padding: 0;
+    }
+
+    body .body-fluid .body-container .row-3 {
+        margin-bottom: 3%;
+    }
+
+    body .body-fluid .body-container .row-3 .row-3_container figure {
+        width: 25%;
+    }
+
+    body .body-fluid .body-container .row-3 .row-3_container p {
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+
+    body .body-fluid .body-container .row-3 .row-3_container .coming {
+        font-size: 0.6rem;
+    }
+
+    body .body-fluid .body-container .row-4 .row-4_container .contact {
+        width: 60%;
+        height: 2.5rem;
+    }
+
+
 
 }
