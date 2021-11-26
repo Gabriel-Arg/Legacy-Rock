@@ -30,6 +30,12 @@
         font-size: 0.5rem;
     }
 
+    body .body-fluid .body-container #row_3B figure {
+        width: 75%;
+        margin: 0;
+        padding: 0;
+    }
+
     body .body-fluid .body-container .row-4 .row-4_container{
         margin-bottom: 5%;
     }
